@@ -125,13 +125,14 @@ body {
   font-family: 'Montserrat', sans-serif;
   margin: 10px 5px;
   outline: none;
+  border: none;
   background-color: transparent;
   color: #fff;
   font-size: 30px;
   width: 60px;
   height: 60px;
   border: 2px solid #616161;
-　border-radius: 25%;
+　border-radius:20%;
 }
 
 .btn-bg{

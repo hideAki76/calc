@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700,900');
 body {
-  width : 100%;
+  width : auto;
   height : 700px;
   display: flex;
   flex-direction : column;

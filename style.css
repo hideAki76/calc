@@ -15,7 +15,7 @@ body {
 .calc {
   display: flex;
   flex-direction : column;
-  width: 30px;
+  width: 350px;
   height: 550px;
   margin : 10px;
   background-color: #000000;

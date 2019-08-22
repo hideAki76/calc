@@ -76,7 +76,7 @@ const evaluate = (e) => {
   	//演算子が最初に入力された場合は実行しない
     if (currentString.length == 0 && (value == '/' || value == '*'|| value == '+'|| value == '-'));
     else {
-    	//入力できる自然数の制限（１０個以下）
+    	//入力できる自然数の制限（10個以下）
     	if (num_formula == 9);
     	else{
     		
@@ -153,7 +153,7 @@ function calc(currentString) {
 	var len = s.length;
 	var str = s.substring(len - 1);
 	if (s.indexOf('/0') != -1) {
-		res = "0の除算はできません。";
+		res = "0の除算はできません";
 		return res;
 	}
 	if (str=='+' || str=='-' || str=='*' || str=='/') {

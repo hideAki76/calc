@@ -222,7 +222,7 @@ const get_postfix = (infix) => {
 }
 
 /**
- * 
+ * 掛け算割り算の並べ替え
  */
 const term = (infix, postfix) => {
     // 数字を"postfix"に代入
@@ -240,7 +240,7 @@ const term = (infix, postfix) => {
 }
 
 /**
- * 足し算引き算の並び替え
+ * 足し算引き算の並べ替え
  */
 const expression = (infix, postfix) => {
     term(infix, postfix);

@@ -139,11 +139,7 @@ body {
   background-color:#ebedef !important;
   border : none !important;
 }
-.btn-bg-clear{
-  background-color:#46acb3 !important;
-  border : none !important;
-}
-.btn-bg-equal{
+.btn-bg-green{
   background-color:#46acb3 !important;
   border : none !important;
 }
